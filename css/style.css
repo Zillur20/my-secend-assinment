@@ -1,8 +1,11 @@
-body{
+#body{
     margin-top: 40px;
     margin-left: 60px;
     margin-bottom: 40px;
-    margin-right: 60px;
+    margin-right: 80px;
+}
+.header{
+    margin: 90px;
 }
 #top-content{
     font-size: 40px;
@@ -24,6 +27,7 @@ nav a{
     display: flex;
     grid-template: 50% 50%;
     margin: 90px;
+    flex-wrap: wrap;
 }
 .fast-item h1{
     font-size: 70px;
@@ -34,9 +38,12 @@ font-size: 20px;
 .font{
     width: 50%;
 }
-.image{
-    width: 50%;
-    background-image:url(download.jpg)
+#camara-photo{
+    background-image: url(download.jpg);
+}
+.image:hover{
+    transform: scale(1.3);
+    transition:  .3s ease-in-out;
 }
 .button{
     background-color: rgb(224, 30, 127);
@@ -45,6 +52,13 @@ font-size: 20px;
     font-weight: 900;
     font-size: 22px;
     color: white;
+    overflow: hidden;
+    
+}
+#buton:hover{
+    transform: scale(1.1);
+    transition:  .3s ease-in-out;
+    font-size: 23px;
 }
 #pc{
     text-align: center;
@@ -52,6 +66,8 @@ font-size: 20px;
 }
 .grid-container{
     margin:30px 150px 60px 150px  ;
+    margin-left: 100px;
+    margin-right: 100px;
     
     
 }
@@ -67,6 +83,10 @@ font-size: 20px;
 
 
 }
+#photo:hover{
+    transform: scale(1.1);
+    transition:  .3s ease-in-out;
+}
 .star{
     color: gold;
 }
@@ -74,6 +94,21 @@ font-size: 20px;
    font-size: 25px;
    color: palevioletred;
     text-align: right;
+    overflow: hidden;
+}
+#see-more:hover{
+    transform: scale(1.1);
+    transition:  .3s ease-in-out;
+    font-size: 25.5px;
+}
+h3{
+    font-size: 25px;
+}
+h4{
+   font-size: 30px;
+}
+small{
+    font-size: 20px;
 }
 footer{  text-align: center;
     background-color: black;
